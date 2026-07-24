@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+.space {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	height: 20px;
+}
+p.rc {
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+	display: block;
+	margin-bottom: 8px;
+}
+em {
+	color: #669999;
+	margin-right: 4px;
+}
+a.more{
+	font-size: 10px;
+	text-decoration: none;
+	color: #000;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+a.more:hover{
+	text-decoration: none;
+	color: #999;
+}
+h1.title {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #699;
+	text-align: left;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	line-height: 0.9em;
+	
+}
+h1.title em{
+	color: #999;
+	text-decoration: none;
+	font-weight: lighter;
+	text-transform: lowercase;	
+}
+a.tags {
+	font-size: 12px;
+	color: #999;
+	text-decoration: none;
+	font-style: italic;
+	text-transform: capitalize;
+}
+a.tags:hover {
+	color: #000;
+	text-decoration: none;
+}

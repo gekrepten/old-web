@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+.space_lc {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	height: 48px;
+}
+.works_mover{
+	min-height: 20px;
+	height: auto;
+	width: 100%;
+	text-align: right;
+}
+.wrap_content{
+	min-height: 460px;
+	height: auto;
+	width: 100%;
+	border: 1px solid #CCC;
+}
+.wrap_image{
+	min-height: 400px;
+	height: auto;
+	width: 100%;
+	background-color: #666;
+	background-image: url(images/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.wrap_description{
+	min-height: 60px;
+	height: auto;
+	width: 100%;
+	background-color: #FFF;
+}
+.wrap_description h2{
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-transform: capitalize;
+	line-height: 0.9em;
+	display: block;
+}
+.wrap_description p{
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.wrap_box_shadow{
+	height: 10px;
+	width: 100%;
+	display: block;
+	background-image: url(images/shadow.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
