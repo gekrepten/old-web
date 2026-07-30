@@ -1,0 +1,255 @@
+<!DOCTYPE html><html class="light" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Glen Hansard — tribute</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lucida+Grande,+Lucida+Sans+Unicode,+sans-serif:wght@100..900&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "primary-container": "#1b1b1b",
+                "surface-container": "#f0eded",
+                "inverse-on-surface": "#f3f0ef",
+                "primary": "#000000",
+                "secondary": "#336669",
+                "surface-variant": "#e5e2e1",
+                "on-tertiary-fixed-variant": "#464747",
+                "on-error-container": "#93000a",
+                "primary-fixed": "#e2e2e2",
+                "surface": "#fcf9f8",
+                "surface-container-lowest": "#ffffff",
+                "on-primary-fixed-variant": "#474747",
+                "secondary-fixed-dim": "#9cd0d0",
+                "tertiary-container": "#1b1c1c",
+                "surface-dim": "#dcd9d9",
+                "secondary-fixed": "#b7ecec",
+                "on-tertiary": "#ffffff",
+                "inverse-primary": "#c6c6c6",
+                "on-tertiary-fixed": "#1b1c1c",
+                "error": "#ba1a1a",
+                "on-primary-fixed": "#1b1b1b",
+                "on-primary": "#ffffff",
+                "surface-container-low": "#f6f3f2",
+                "surface-container-high": "#eae7e7",
+                "on-surface-variant": "#4c4546",
+                "on-surface": "#1b1c1c",
+                "on-background": "#1b1c1c",
+                "on-tertiary-container": "#848484",
+                "on-primary-container": "#848484",
+                "outline": "#7e7576",
+                "on-secondary-fixed": "#002020",
+                "error-container": "#ffdad6",
+                "background": "#fcf9f8",
+                "surface-container-highest": "#e5e2e1",
+                "on-secondary-container": "#396c6d",
+                "primary-fixed-dim": "#c6c6c6",
+                "tertiary-fixed": "#e4e2e2",
+                "tertiary": "#000000",
+                "surface-bright": "#fcf9f8",
+                "outline-variant": "#cfc4c5",
+                "on-error": "#ffffff",
+                "inverse-surface": "#303030",
+                "surface-tint": "#5e5e5e",
+                "secondary-container": "#b7ecec",
+                "on-secondary-fixed-variant": "#174e4f",
+                "on-secondary": "#ffffff",
+                "tertiary-fixed-dim": "#c7c6c6"
+            },
+            "spacing": {
+                "space-sm": "10px",
+                "space-md": "20px",
+                "space-lg": "48px",
+                "header-height": "80px",
+                "col-main": "640px",
+                "max-width": "800px",
+                "gutter": "60px",
+                "col-sidebar": "250px"
+            },
+            "fontFamily": {
+                "tag-italic": ["\"Lucida Grande, Lucida Sans Unicode, sans-serif\""],
+                "headline-lg": ["\"Lucida Grande, Lucida Sans Unicode, sans-serif\""],
+                "nav-link": ["\"Lucida Grande, Lucida Sans Unicode, sans-serif\""],
+                "metadata": ["\"Lucida Grande, Lucida Sans Unicode, sans-serif\""],
+                "body-base": ["\"Lucida Grande, Lucida Sans Unicode, sans-serif\""],
+                "section-title": ["\"Lucida Grande, Lucida Sans Unicode, sans-serif\""]
+            },
+            "fontSize": {
+                "tag-italic": ["12px", {"lineHeight": "16px", "fontWeight": "400"}],
+                "headline-lg": ["18px", {"lineHeight": "20px", "letterSpacing": "0px", "fontWeight": "400"}],
+                "nav-link": ["12px", {"lineHeight": "16px", "fontWeight": "700"}],
+                "metadata": ["10px", {"lineHeight": "14px", "fontWeight": "400"}],
+                "body-base": ["12px", {"lineHeight": "17px", "fontWeight": "400"}],
+                "section-title": ["15px", {"lineHeight": "14px", "letterSpacing": "0px", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #fcf9f8;
+            color: #1b1c1c;
+            -webkit-font-smoothing: antialiased;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            font-size: 16px;
+            vertical-align: middle;
+        }
+        .editorial-shadow {
+            position: relative;
+        }
+        .editorial-shadow::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+            height: 10px;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.03), transparent);
+            pointer-events: none;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #fcf9f8;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #CCCCCC;
+        }
+    </style>
+</head>
+<body class="font-body-base text-body-base selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TopNavBar (Simplified) -->
+<header class="fixed top-0 left-0 w-full z-50 flex items-center justify-center px-6 md:px-gutter h-[80px] bg-surface border-b border-dashed border-secondary">
+<!-- Branding removed as requested -->
+</header>
+<!-- Main Content Canvas -->
+<main class="pt-[128px] pb-space-lg max-w-[640px] mx-auto px-6 md:px-0">
+<div class="flex flex-col gap-space-lg">
+<!-- Main Column: centered and wider for focus -->
+<div class="w-full flex flex-col gap-space-lg">
+<!-- Artist Anchor -->
+<section class="border-b border-dashed border-secondary-fixed-variant pb-space-sm text-center">
+<h1 class="font-headline-lg text-[24px] font-bold text-primary tracking-tighter uppercase">
+                    glen hansard
+                </h1>
+<p class="font-metadata text-metadata text-secondary uppercase tracking-[0.2em] mt-1">
+                    1970 — 2026
+                </p>
+</section>
+<!-- Video Gallery -->
+<div class="grid grid-cols-1 gap-space-md">
+<!-- Video Card 1 -->
+<div class="border border-outline-variant bg-white p-0 overflow-hidden editorial-shadow" style="opacity: 1; transform: translateY(0px); transition: 0.6s cubic-bezier(0.16, 1, 0.3, 1);">
+<div class="aspect-video bg-on-background">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-full h-full" frameborder="0" src="https://www.youtube.com/embed/buiseCR6-cY" title="YouTube video player"></iframe>
+</div>
+<div class="p-space-md bg-surface-container-lowest">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-lg text-primary">Glen Hansard - Astral Weeks (Live at Royal Albert Hall)</h3>
+<span class="font-metadata text-metadata text-outline">04:04</span>
+</div>
+<p class="font-tag-italic text-tag-italic text-on-surface-variant mt-2 italic lowercase">— live performance archive</p>
+</div>
+</div>
+<!-- Video Card 2 -->
+<div class="border border-outline-variant bg-white p-0 overflow-hidden editorial-shadow" style="opacity: 1; transform: translateY(0px); transition: 0.6s cubic-bezier(0.16, 1, 0.3, 1);">
+<div class="aspect-video bg-on-background">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-full h-full" frameborder="0" src="https://www.youtube.com/embed/GhDjyGNvbuw" title="YouTube video player"></iframe>
+</div>
+<div class="p-space-md bg-surface-container-lowest">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-lg text-primary">Glen Hansard - Bird of Sorrow (Live)</h3>
+<span class="font-metadata text-metadata text-outline">03:32</span>
+</div>
+<p class="font-tag-italic text-tag-italic text-on-surface-variant mt-2 italic lowercase">— official visual capture</p>
+</div>
+</div>
+<!-- Video Card 3 -->
+<div class="border border-outline-variant bg-white p-0 overflow-hidden editorial-shadow" style="opacity: 1; transform: translateY(0px); transition: 0.6s cubic-bezier(0.16, 1, 0.3, 1);">
+<div class="aspect-video bg-on-background">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-full h-full" frameborder="0" src="https://www.youtube.com/embed/d6PThgrW_HI" title="YouTube video player"></iframe>
+</div>
+<div class="p-space-md bg-surface-container-lowest">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-lg text-primary">Glen Hansard - Say It To Me Now (Live)</h3>
+<span class="font-metadata text-metadata text-outline">04:46</span>
+</div>
+<p class="font-tag-italic text-tag-italic text-on-surface-variant mt-2 italic lowercase">— archival session footage</p>
+</div>
+</div>
+<!-- Video Card 4 -->
+<div class="border border-outline-variant bg-white p-0 overflow-hidden editorial-shadow" style="opacity: 1; transform: translateY(0px); transition: 0.6s cubic-bezier(0.16, 1, 0.3, 1);">
+<div class="aspect-video bg-on-background">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-full h-full" frameborder="0" src="https://www.youtube.com/embed/VzF8O1ENtGs" title="YouTube video player"></iframe>
+</div>
+<div class="p-space-md bg-surface-container-lowest">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-lg text-primary">Glen Hansard - Winning Streak</h3>
+<span class="font-metadata text-metadata text-outline">02:35</span>
+</div>
+<p class="font-tag-italic text-tag-italic text-on-surface-variant mt-2 italic lowercase">— street performance record</p>
+</div>
+</div>
+<!-- Video Card 5 -->
+<div class="border border-outline-variant bg-white p-0 overflow-hidden editorial-shadow" style="opacity: 1; transform: translateY(0px); transition: 0.6s cubic-bezier(0.16, 1, 0.3, 1);">
+<div class="aspect-video bg-on-background">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-full h-full" frameborder="0" src="https://www.youtube.com/embed/Cea4vHRqi54" title="YouTube video player"></iframe>
+</div>
+<div class="p-space-md bg-surface-container-lowest">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-lg text-primary">Glen Hansard - Falling Slowly (Live)</h3>
+<span class="font-metadata text-metadata text-outline">03:02</span>
+</div>
+<p class="font-tag-italic text-tag-italic text-on-surface-variant mt-2 italic lowercase">— studio performance document</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+
+<!-- Micro-interactions Script -->
+<script>
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.addEventListener('mousedown', function() {
+            this.style.opacity = '0.7';
+        });
+        anchor.addEventListener('mouseup', function() {
+            this.style.opacity = '1';
+        });
+    });
+
+    // Simple scroll reveal effect for editorial cards
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.editorial-shadow').forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(20px)';
+        card.style.transition = 'all 0.6s cubic-bezier(0.16, 1, 0.3, 1)';
+        observer.observe(card);
+    });
+</script>
+
+
+</body></html>
